@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain import HuggingFaceHub
+from langchain_community.llms import HuggingFaceHub
+
 
 
 load_dotenv()
